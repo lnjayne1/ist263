@@ -1,0 +1,12 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h1, h2 {
+    color:darkgreen}
+.special {
+    background-color: gray;}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.5em;
+}
