@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .box2 {flex-wrap: wrap;}
+            
+            
+        </style>
+    </head>
+    <body>
+        <nav > <a href="index.html">Home</a> <span>|</span>  <a href="skills.html">Skills</a> <span>|</span>  <a href="contact.html">Contact</a></nav>
+        <main>
+            <h1 >Contact</h1>
+                <div class="box1">
+                    <div class="col1"><strong>Address</strong> <br> 
+                        <p>Laura Jayne <br>300 Euclid Ave <br>Syracuse, NY 13210</p>
+                    </div>
+                    <div class="col2"> 
+                        <a href="mailto:lnjayne@syr.edu"> lnjayne@syr.edu</a> <br>
+                        <a href= "https://www.linkedin.com/in/laura-n-jayne/" target="_blank">My LinkedIn Profile <br> <img src="../images/newlinkedin.png" alt="LinkedIn Logo"> </a> 
+                    </div>
+                </div>
+            <div class="box2">
+                <div class="col11"> 
+                    <form action="https://formspree.io/f/mwkdrrpa" method="post">
+                        <p>
+                            <label for="fullname">What is your email:</label> 
+                            <input type="text" id="fullname" name="Full Name"><br>
+                        </p>
+                    Topic of your request: <br>
+                    <input type="radio" id="food" name="Topic" value="food">
+                    <label for="food">Food Preparation</label> <br>
+                    <input type="radio" id="labor" name="Topic" value="labor">
+                    <label for="labor">Labor Issues</label> <br>
+                    <input type="radio" id="visualcomms" name="Topic" value="comms">
+                    <label for="visualcomms">Visual Communications</label> <br>
+                    <input type="radio" id="spreadsheets" name="Topic" value="spreadsheets">
+                    <label for="spreadsheets">Spreadsheets</label> <br>
+                    <input type="radio" id="other" name="Topic" value="something else">
+                    <label for="other">Something else</label>
+                    <p>Write your Message Below:</p>
+                    <textarea id="messagecontent" name="content" rows="4" cols="40">I would like to ask...</textarea> <br>
+        
+                    <input type="submit" value="send message"> 
+                    </form>
+                </div>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.252451854751!2d-76.12769180000001!3d43.036119600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f374400d5481%3A0x66c24e5961c061f8!2s300%20Euclid%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1694720650704!5m2!1sen!2sus" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+           
+        </main>
+        <footer>
+            <hr>
+            &copy; 2023  <span class="motto"> "For the love of food and future"</span>           
+        </footer>
+    </body>
+</html>

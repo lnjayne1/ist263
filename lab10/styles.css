@@ -1,0 +1,32 @@
+body {
+    background-color: #f5f5dc;
+    color: #004225;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2 {color: #b2533e;}
+a {color: #ffb000;}
+nav {background-color:#b5cb99;
+    padding:10px;
+    margin-bottom: 30px;
+}
+nav a {color: #01412c}
+nav a:hover {background-color: #f6f697;}
+.profile {float:none}
+.motto {float: right}
+.box1 {display: flex; background-color: #b3d5d6; border-radius: 1em; margin:20px}
+.col1 {flex:1; margin:20px;}
+.col2 {flex:2; margin: 20px;}
+.box2 {display:flex; background-color:#efefc1; border-radius: 1em; margin: 20px;}
+.col11 {flex:1; margin: 20px;}
+.col22 {flex:2;margin: 20px;}
+form {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+@media only screen and (max-width: 600px){
+    nav a {
+        display:block;
+        width: 100%;
+        margin: 7px}
+    nav span {
+        display: none;
+    }
+    
+}
