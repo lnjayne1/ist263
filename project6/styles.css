@@ -1,0 +1,313 @@
+body {
+    background-color:#FFF5E0;
+}
+h1, h2, h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4056a1;
+    font-size: 2em;
+    margin:0% 0% 0% 5%;
+}
+p, a, ul{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#3b0505}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+.flex {
+justify-content: left;}
+.flexbox1{
+    display:flex;
+    flex-direction:column;
+}
+hr {
+    height:2px;
+    background-color:#470d7d;
+    border: none;
+}
+
+/* nav stuff*/
+#top {
+    justify-content: space-between;
+    display: flex;
+    background-color: #1b2f05;
+    width:100%;
+    
+}
+.nlogo {width:150px;}
+.nav, .logo {display: flex;
+    align-items: flex-end;
+    }
+.logo {
+    padding:0px 30px 0px 30px;
+}
+.links {
+    padding: 15px
+   }
+.links a {
+    text-decoration: none;
+    color: #FFF5E0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+}
+.links a:hover {
+    color:#1e291e;
+    text-transform: uppercase;
+}
+.links:hover {
+    background-color: #e8e23f;
+    
+}
+.banner {
+    max-width:100%;
+    
+}
+/*welcome block*/
+#lauraphoto {
+    float:left;
+    margin: 2%;
+    width:15%;
+    border-radius: 50%;
+}
+.floatleft {
+    float:left;
+}
+.stopfloat {
+    clear:both;
+}
+#welcome p {padding:5%;}
+#welcome h3 {
+    text-align: center;
+    color: #91620b;
+}
+#welcome .flexbox .col1 {
+    flex:2; 
+}
+#welcome .flexbox .flexbox1 {
+    flex:1;}
+#pagenav{
+    padding:20px;
+    background-color:#fdd790;
+    border-radius: 3%;
+    float: right;
+    width:30%;
+    margin:5%;
+    align-items: center;
+}
+#welcome p {
+    text-align: left;
+}
+
+/*what is food insecurity block*/
+#whoisfood {
+float:right;
+    background-color: #d0d3ad;
+    border-radius: 2%;
+    width:40%;
+    margin:5%;
+}
+#whoisfood h2 {
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+    color:#05451f;
+}
+.more{
+    margin:5%;
+}
+.whofood {
+    margin:10px;
+    width:130px;
+    align-items: center;
+}
+caption {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#3b0505;
+}
+
+/*morenav*/
+.tease {
+    justify-content: space-between;
+    flex:1;
+    text-align: center;
+}
+#morenav .flexbox {
+    flex-wrap:wrap;
+}
+#morenav .flexbox .tease a {
+    text-align:center;
+    text-decoration: none;
+}
+
+/*causes of food insecurity*/
+
+#causes img {margin: 0% 5% 2% 5%;} 
+    
+/*video on food apartheid*/
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ad7c21;
+    font-size:1.5em;
+    text-align: center;
+    width:70%;
+    margin-right: auto;
+    margin-left:auto;
+    font-weight: 50;
+}
+#desert div {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0% 0% 0%;
+}
+
+#impact p {
+    width:60%;
+    float:left;
+    margin-left:20px;}
+
+#questions {
+    background-color: #698869;
+    border-radius: 5%;
+    width:70%;
+    margin:0 auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+#questions h3{
+    text-align: center;
+    color:#1e291e
+}
+#questions ul {
+    color:#dcdecb;
+}
+
+.floatright {
+    float:right;
+}
+
+/* footer */
+.col hr, #flogo hr, .col1 hr {
+    display: none;
+}
+footer {
+    background-color: #470d7d
+}
+#footer a, #footer h4, #footer h3, #footer p {
+    color:#d0d3ad;}
+#footer .flexbox {
+    justify-content: space-around;
+}
+#footer .col {
+    flex:1;
+}
+.col {
+    padding:15px;
+   
+}
+#footer h4 {
+margin-top: 20px;}
+.col1 {
+    padding: 15px;
+    text-align: center;
+}
+.copy {
+    float:right;
+}
+.disc {
+    font-size:.7em;
+    padding: 15px;
+}
+#flogo {
+justify-content: center;
+text-align: center;}
+.flogo {
+    width:130px;
+    margin:0% auto;
+}
+.col a {
+    margin-top:20px;
+}
+/*screen size for phone*/
+@media only screen and (max-width:800px) {
+    .bannersmall {
+        max-width: 100%;
+    }
+    #top {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center; }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;} 
+    .links {
+        font-size: .7em;}
+    .nlogo {
+        max-width:100%;} 
+    .banner {display: none;}
+    h1 ,h2 ,h3 {
+        text-align: center;
+    }
+    #pagenav {
+        float:none;
+        margin: 0px auto;  
+        justify-content: center; 
+        width:min-content;
+       ;    
+    }
+    #lauraphoto {
+        width:25%;
+        border-radius: 50%;
+        }
+    .flex {
+        width:100%;
+        margin:0px auto;        
+    }
+    #whoisfood {
+        margin:0px auto;
+        float:none;
+        width:100%;
+    }
+    .tease a img {
+       max-width: 100%;
+       height:auto;
+    }
+    .tease {
+        padding:10px;
+    }
+    #morenav .flexbox {
+        flex-wrap:wrap;
+    }
+    .tease h2{
+        font-size: .75em;
+    }
+   .impactimg {
+        
+        width:80%;
+    }
+    /*footer*/
+    #footer .flexbox {
+        display: flex;
+        flex-direction: column;
+    }
+    .col {
+        text-align: center;
+        flex:1;
+        margin:auto;
+    }
+    .col hr, #flogo hr, .col1 hr {
+        display:block;
+        background-color:#dcdecb;
+    }
+    .flogo {
+        width: 50%;
+    }
+    #impact p {
+        width:100%;
+        float:none;
+    }
+    }
+/*screen size for laptop*/
+@media only screen and (min-width:801px) {
+    .bannersmall {display:none;}
+    .banner {display: block;}
+}
