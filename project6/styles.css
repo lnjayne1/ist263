@@ -165,7 +165,7 @@ h4 {
     margin-left:20px;}
 
 #questions {
-    background-color: #698869;
+    background-color: #597b59;
     border-radius: 5%;
     width:70%;
     margin:0 auto;
@@ -177,7 +177,7 @@ h4 {
     color:#1e291e
 }
 #questions ul {
-    color:#dcdecb;
+    color:rgb(239, 229, 234)
 }
 
 .floatright {
