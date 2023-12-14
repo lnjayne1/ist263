@@ -550,7 +550,8 @@ text-align: center;}
         border: none;
     } 
     .jpic {
-        max-width:80%;
+        width: 500px;
+        margin:0 auto;
     }
     #top {
         display:block;
@@ -716,7 +717,7 @@ text-align: center;}
         align-items: center;
         flex-direction: column;
         margin-top: 20px;
-        margin-left:-50px;
+        
     }
     #lastjart {
         display: block;
