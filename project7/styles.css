@@ -146,6 +146,7 @@ flex:1;
 }
 .more{
     margin:5%;
+    max-width: 500px;
 }
 .aside1 {
     display: flex;
@@ -222,7 +223,7 @@ caption {
 /*video on food apartheid*/
 h4 {
     font-family: 'Adamina', serif;
-    color:#ad7c21;
+    color:#594012;
     font-size:1.5em;
     text-align: center;
     width:70%;
@@ -267,7 +268,7 @@ h4 {
     color:#1e291e
 }
 #questions ul {
-    color:#efe5ea
+    color:#ffffff
 }
 
 .floatright {
