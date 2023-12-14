@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:wght@300&display=swap" rel="stylesheet">
+   <script>
+        function showNav() {
+            document.getElementById('nav').style.display ="block";
+        }
+        function hideNav() {
+            document.getElementById('nav').style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <nav id="top">
+        <div id="logo">
+            <a href="#content" class="skip" tabindex="1">Skip to Content</a>
+            <div> <img tabindex="2" onkeydown="showNav();" onclick="showNav();" id="hamicon" src="Hamburger_icon.svg.png" alt="hamburger icon"></div>
+            <div><a  href="index.html"> <img id="nlogo" src="logo.png" alt="With food and justice for all website logo" > </a></div>
+            <div> <p  tabindex="6" onkeydown="hideNav();" onclick="hideNav();" id="close">X</p></div>
+        </div>
+        <div id="nav">
+            <span class="links"> <a tabindex="3" href="index.html">Home</a> </span>
+            <span class="links"><a tabindex="4" href="assistance.html">Food Assistance</a> </span>
+            <span class="links"><a tabindex="5" href="justice.html">Future of Food</a> </span>
+        </div>
+        <div id="navfull">
+            <span class="links"> <a href="index.html">Home</a> </span>
+            <span class="links"><a href="assistance.html">Food Assistance</a> </span>
+            <span class="links"><a href="justice.html">Future of Food</a> </span>
+        </div>
+    </nav>
+    <header id="content">
+        <img class="banner" src="homebanner.jpg" alt="Food Insecurity in US title on background of food">        
+        <img class="bannersmall" src="homebanner-copy.jpg" alt="Food Insecurity in US title on background of food">        
+    </header>
+    <section id="welcome" >
+        <h2 id="welcome">Welcome!</h2>  
+        <div id="welcomeblock">
+            <div class="thing1"><img id="lauraphoto" src="me.JPG" alt="laura jayne" > </div>
+            <div id="welcomep">
+                <p > My name is Laura. I'm currently in my third year studying Food Systems Inequalities at Syracuse University. Recently, food deserts have entered the national lexicon. I want to share this website to offer a bit more information about what they look like, what their impacts are, and why we don’t really call them food deserts anymore.A "Food Desert" is a widespread manifestation of food security seen across the US. About 12% of the population experiences food insecurity, and you can use this website as a resource to learn more about the structural causes of food insecurity, the programs in place to mitigate it, and contemporary efforts to ameliorate it. If you believe that everyone deserves affordable, nutritious, and delicious food, then you have found the right place!</p> 
+            </div>
+            <div class="flexbox1" id="pagenav" >
+                <h4>Page Navigation:</h4>
+                <div class="row"><a  href="#insecurity">What is Food Insecurity?</a></div>
+                <div class="row"><a  href="#causes">Causes of Food Insecurity</a></div>
+                <div class="row"><a  href="#desert">Food Desert vs Food Apartheid</a></div>
+                <div class="row"><a href="#impact">Health Impacts of Food Insecurity</a></div>
+                <div class="row"><a  href="#questions">Questions to Consider</a></div>
+            </div>          
+        </div>
+    </section>
+    <hr>
+    <section id="insecurityrow">
+        <span id="insecurity">
+            <h1 >What is Food Insecurity?</h1>
+            <p class="more">When we think “security”, we can think of situations that are predictable, regular, or dependable. Food insecurity logically refers to situations where there a person has anxiety regarding where their next meal is coming from. They may sacrifice their meals' nutritional quality or skip meals entirely. Worsened by the COVID-19 pandemic, food insecurity was experienced by nearly 1 in 4 households in 2020. </p>
+            <p class="more">We often hear the term “hunger” when thinking about people who have limited food access. Hunger is the physical sensation that results from a lack of food and can accompany food insecurity. In high income countries like the United States, food insecurity doesn't mean that food isn't available at all. Food insecurity includes the experience of having limited choice in the products to consume as costs, geography, and availability present major food access barriers. The food insecure are often forced to fill their diets with the cheapest calories available.</p> 
+        </span>
+        <span id="whoisfood">
+            <h2>Food Insecurity Can Affect Anyone:</h2>
+            <div id="asidepain">
+                <div class="aside1">
+                    <div> <img class="whofood" src="grocery.jpg" alt="woman in grocery store" ></div>
+                    <div><p class="pain"> A Single Mother with no car who most easily buys food at a local convenience store.</p></div>
+                </div>
+                
+                <div class="aside1">
+                     <div><img class="whofood" src="student.jpg" alt="college student" ></div>
+                    <div><p>A College Student who devotes most of their income towards rent and school which limits the quality of their diet</p></div>
+                </div>
+                <div class="aside1">
+                    <div><img class="whofood" src="vendor.jpg" alt="man repairing a shoe" > </div>
+                    <div> <p>A Old Man who sustained a workplace injury and has only enough saving to cover rent and medical costs.</p></div>
+                </div>
+            </div>
+    </section>
+    <hr>
+    <aside id="morenav">     <!--flex box for teasers-->
+        <div class="container">
+            <a href="assistance.html"><img src="assistanceteaser.jpg" alt="Food Pantry "> </a> 
+            <div class="title1"> <a href="assistance.html" id="falink"> <h3 >Read more about Food Assistance</h3></a> </div>
+        </div>
+        <div class="container2">
+            <a href="justice.html"><img src="garden.jpg" alt="Two farmers in field">
+            <div class="title2"><a href="justice.html"><h3>Read more about Food System Reform</h3></a></div>
+        </div>
+    </aside>
+    <hr>
+    <section >
+        <h2 >Causes of Food Insecurity:</h2>
+        <div id="causes">
+            <div id="infopic">
+            <img  src="causesinfo.png" alt="different causes of food insecurity"></div>
+            <div id="insecp"> <p>“Food desert” has been used to describe a geographic area that has extremely few accessible sources of healthy food. These areas are primarily low income with a high population of black and brown residents. Many food studies scholars are urging people to stop using the term food deserts as deserts are a natural phenomenon while this separation from nutritious food is anything but. Instead, we use the term “food apartheid” to refer to how marginalized communities are systematically separated from affordable, healthy food. Conditions of food apartheid most often are consequences of redlining, community divestment, and perceived low profit potential</p>
+        <p>Food Insecurity is very common in situations of food apartheid. Food apartheid is characterized by high volume of convenience stores and fast food restaurants within a community where housing, job-availabilty, and infrastructure quality also lacks. These establishments may be the only places a family can go to for food as transportation costs can be prohibitive. Dietary quality is sacrificed in favor of the products that are high in sodium, saturated fat, and sugar. 19 million Americans live in food apartheid.</p></div>
+        </div>
+        
+    </section>
+    <hr>
+    <section id="desert">
+        <h2>Food Deserts vs. Food Apartheid Explained:</h2>
+        <div><iframe width="850" height="400" src="https://www.youtube.com/embed/IUeFtaujl7E?si=Cu2UV9sfR-a1LuWi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <p id="videodes">Malik Yakini of the T. Colin Campbell Center for Nutrition Studies explains how the term "Food Desert" is misleading and why food systems experts are now moving to using "Food Apartheid" when speaking on inequality of food access.</p>
+    </section>
+    <hr>
+    <section id="impact">
+        <h2 >Health Impacts of Food Insecurity:</h2>
+        <div id="impactr">
+            <div id="impactp">
+                <p>
+                    When supporting a long, healthy life that is free from chronic illness, a variety of whole grains, fruit, vegetables, and lean proteins are required. The food insecure in the US are often filling their diet with higher than recommended levels of sodium, saturated fat, and sugars as that is what is most easily accessible. Foods with high levels of simple carbohydrates have high glycemic index that doesn't sustain high energy or stable moods. The vitamins in fruits and vegetables that support healthy immune system and strong heart are also lacking from the diet. When food insecure folks are forced to skip meals, productivity at work and success at school suffer which hurt already limited potential for social mobility. 
+                </p>
+                <p>
+                    Long term reliance on fast and convenience foods can contribute to a wide array of chronic illness. Most commonly, high rates of obesity, diabetes, heart disease, kidney failure, and cancer are seen in low income communities which directly result from poor food access. When diagnosed with these diseases, poor health infrastructure and high health care costs place added pressure on tight budgets to further drive families into poverty. 
+                </p>
+            </div>
+            <div id="impactimg"><img class="impactimg" src="riskinfo.png" alt="food insecurity risk groups infographic">
+            </div>
+        </div>
+    </section>
+    <section id="questions">
+        <div>
+            <h4>Questions to Consider as You Read:</h4>
+            <ul>
+                <li>Who bears the responsibility for ensuring people have regular access to healthy meals?</li>
+                <li>Who has the most power to unite low income communities with healthy options?</li>
+                <li>Which are the most powerful tools in supporting universal food insecurity?</li>
+                <li>How does the profit incentive of the food system limit food access?</li>
+                <li>How do labor rights intersect with food apartheid?</li>
+                <li>How does our culture perpetuate the proliferation of fast and convenience foods?</li>
+                <li>How is the federal assistance appropriated and who is determining how much aid is enough?</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <footer id="footer">        
+            <div class="flexbox" >
+                <div id="flogo">
+                    <h4 class="thanks">Thanks for visiting! <br> Now you should...</h4>
+                    <a href="index.html"><img class="flogo" src="logo.png" alt="with food and justice for all website logo"></a>                        <hr>
+                    <br> <a class="toplink" href="#top">Back to Top</a>
+
+                </div>
+                <div class="flexbox">
+                    <div class="col">
+                        <h4>Read</h4>
+                        <a href="https://civileats.com/" target="_blank">Civil Eats</a> <br>
+                        <a href="https://theconversation.com/us/topics/food-justice-65423" target="_blank">The Conversation</a> <br>
+                        <a href="https://www.goodreads.com/en/book/show/2015924" target="_blank">Stuffed and Starved</a> 
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <h4>Volunteer</h4>
+                        <a href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank">Food Bank Locator</a> <br>
+                        <a href="https://foodcorps.org/" target="_blank">FoodCorps</a> <br>
+                         <a href="https://www.epa.gov/brownfields/steps-creating-community-garden-or-expand-urban-agriculture-brownfields-site" target="_blank">Start an Urban Garden</a>
+                         <hr>
+                    </div>
+                    <div class="col">
+                        <h4>Organize</h4>
+                        <a href="https://foodsecurity.org/fpc/" target="_blank">Food Policy Councils</a> <br>
+                         <a href="https://foodprint.org/issues/labor-workers-in-the-food-system/" target="_blank">Labor in the Food System</a> <br>
+                        <a href="https://www.ufcw.org/start-a-union/" target="_blank">Start a Labor Union</a> 
+                        <hr>
+                    </div>
+                    <div class="col1">
+                        <h4>Share</h4>
+                        <div id="iconrow">
+                        <div><a href="https://twitter.com/?lang=en" target="_blank"><img src="x-twitter.png" alt="twitter logo" width="30"></a></div> 
+                        <div><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="facebook logo" width="30"></a></div>  
+                        <div><a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="instagram logo" width="30"></a></div> 
+                        <div><a href="https://www.tiktok.com/en/" target="_blank"><img src="tiktok.png" alt="tiktok logo" width="30"></a></div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>  
+            </div> 
+        <p class="disc">Laura Jayne thanks you for your commitment to learning more about food access inequality! <br> All images used with Creative Commons Licencing or with permission from owner
+         <span class="copy">&copy; Laura Jayne 2023</span>
+        </p>
+    </footer>
+</body>
+</html>
